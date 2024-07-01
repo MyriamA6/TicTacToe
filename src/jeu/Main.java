@@ -50,9 +50,11 @@ public class Main {
         for (int i=0; i<9;i++) {
         	frame.add(boutons[i]);
         }
-
+        
+        frame.setLocationRelativeTo(null);
         frame.add(fond);
 		frame.setVisible(true);
+		frame.pack();
 		start_Game(boutons,fond);		
 	}
 	
